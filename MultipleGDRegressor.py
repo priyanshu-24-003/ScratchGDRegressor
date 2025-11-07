@@ -1,13 +1,15 @@
+import numpy as np
+
 class Multiple_GDRegressor():
 
     def __init__(self, lr, epochs):
         self.ita = lr
         self.epochs = epochs
-        self.w = np.ones((len(X[0])+1, 1)) # [Bo, B1, B2 ....Bm], Random Initialization of weights
 
         self.all_updated_weights = [self.w.ravel()]
         
     def fit(self, X, Y):
+        self.w = np.ones((len(X[0])+1, 1)) # [Bo, B1, B2 ....Bm], Random Initialization of weights
         
         x_1s = np.column_stack((np.ones((len(X), 1)), X)) # adding columns of Ones in place Xi0.
         Y = Y.reshape(-1, 1)
