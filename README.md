@@ -1,5 +1,5 @@
 # ScratchGDRegressor
-Implementation of Linear Regression using Gradient Descent Algorithm.
+Scratch Implementation of Linear Regression using Gradient Descent Algorithm.
 
 - Data : Folder That Contains some toy data sets.
 - MultipleGDRegressor.py : python code for scratch implmentation of Linear Regression using Gradient Descent.
