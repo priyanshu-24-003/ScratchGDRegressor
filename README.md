@@ -7,6 +7,7 @@ Scratch Implementation of Linear Regression using Gradient Descent Algorithm.
 
 Scope of Improvement
 
-- Integration of Variants of Gradient Descent like stochastic gradient descent
-- Regularization
-- usage of DRY principle in code
+- Polynomial Regressor.
+- Integration of Variants of Gradient Descent like stochastic gradient descent, mini batch etc.
+- Regularization.
+- usage of DRY principle in code.
